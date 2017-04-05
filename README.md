@@ -23,6 +23,8 @@ $ ln -s -f .tmux/.tmux.conf
 $ cp .tmux/.tmux.conf.local .
 ```
 
+Or simply run: `wget -O - https://raw.githubusercontent.com/oroszgy/.tmux/master/install.sh  | sh`
+
 Then proceed to customize your `~/.tmux.conf.local` copy.
 
 If you're a Vim user, setting the `$EDITOR` environment variable to `vim` will
