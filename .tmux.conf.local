@@ -273,3 +273,5 @@ tmux_conf_copy_to_os_clipboard=false
 #set -g status-position top
 
 set-option -g allow-rename off
+set -g pane-border-status top
+set -g pane-border-format "#{pane_index} #{pane_current_command}"
